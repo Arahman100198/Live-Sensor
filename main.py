@@ -5,7 +5,7 @@ import os
 
 def test_exception():
     try:
-        logging.info("error will occured in this file ")
+        logging.info("Potential errors may occur in this file. ")
         a = 1/0
     except Exception as e:
        raise SensorException (e,sys)
